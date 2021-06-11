@@ -16,7 +16,9 @@ namespace OperatorsAndVariables
             Console.WriteLine(evenNumber);
             //TODO Assign the value of the double below to an int variable called "priceRounded". google "w3schools C# type casting"
 
-            double price = 15.99;
+            //double price = 15.99;
+            Console.WriteLine("Give me a decimal number and I will round it up!");
+            double price = double.Parse(Console.ReadLine());
             int priceRounded = (int) price;
 
             if(price >= priceRounded + 0.01)
